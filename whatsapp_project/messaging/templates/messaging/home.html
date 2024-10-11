@@ -1,0 +1,28 @@
+{% extends 'messaging/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to the WhatsApp Messaging App!</h1>
+        <p class="lead">Send messages to all your contacts effortlessly.</p>
+        <hr class="my-4">
+        <p>Use the navigation bar to manage contacts and send messages.</p>
+    </div>
+{% endblock %}
+
+
+<!-- messaging/templates/messaging/home.html -->
+{% comment %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Example of using the static tag -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Messaging App</h1>
+    <!-- Your content -->
+</body>
+</html> {% endcomment %}

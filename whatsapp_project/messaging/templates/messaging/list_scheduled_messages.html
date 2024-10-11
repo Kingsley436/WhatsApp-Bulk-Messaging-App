@@ -1,0 +1,40 @@
+{% extends 'messaging/base.html' %}
+
+{% block content %}
+    <h2>Scheduled Messages</h2>
+    {% if scheduled_messages %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Message</th>
+                    <th>Scheduled Time</th>
+                    <th>Contacts</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for msg in scheduled_messages %}
+                    <tr>
+                        <td>{{ msg.message }}</td>
+                        <td>{{ msg.scheduled_time }}</td>
+                        <td>
+                            {% for contact in msg.contacts.all %}
+                                {{ contact.name }}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% if msg.sent %}
+                                Sent
+                            {% else %}
+                                Pending
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No scheduled messages.</p>
+    {% endif %}
+{% endblock %}
+

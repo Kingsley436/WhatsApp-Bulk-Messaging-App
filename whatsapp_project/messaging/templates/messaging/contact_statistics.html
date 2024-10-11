@@ -1,0 +1,36 @@
+{% extends 'messaging/base.html' %}
+
+{% block content %}
+    <h2>Contact Statistics</h2>
+    {% if contacts %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Messages Sent</th>
+                    <th>Last Message Sent</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for contact in contacts %}
+                    <tr>
+                        <td>{{ contact.name }}</td>
+                        <td>{{ contact.phone_number }}</td>
+                        <td>{{ contact.messages_sent }}</td>
+                        <td>
+                            {% if contact.last_message_sent %}
+                                {{ contact.last_message_sent }}
+                            {% else %}
+                                Never
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No contacts available.</p>
+    {% endif %}
+{% endblock %}
+
