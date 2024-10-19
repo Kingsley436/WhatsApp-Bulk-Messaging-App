@@ -6,6 +6,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('add/', views.add_contact, name='add_contact'),
     path('contacts/', views.list_contacts, name='list_contacts'),
+    path('contact/delete/<int:contact_id>/', views.delete_contact, name='delete_contact'),
     path('send/', views.send_message, name='send_message'),
     path('login/', auth_views.LoginView.as_view(template_name='messaging/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='messaging/logout.html'), name='logout'),
@@ -14,5 +15,6 @@ urlpatterns = [
     path('scheduled-messages/', views.list_scheduled_messages, name='list_scheduled_messages'),
     path('statistics/', views.contact_statistics, name='contact_statistics'),
     path('', views.home, name='home'),
+
 ]
 
