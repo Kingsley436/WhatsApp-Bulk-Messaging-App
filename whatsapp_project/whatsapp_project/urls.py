@@ -22,7 +22,7 @@ from messaging import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('messaging.urls')),
-    path('', views.index, name='index'),
+    # path('', views.index, name='index'),
     path('login/', auth_views.LoginView.as_view(template_name='messaging/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]

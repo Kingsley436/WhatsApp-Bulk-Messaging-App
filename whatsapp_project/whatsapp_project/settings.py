@@ -43,6 +43,8 @@ TWILIO_ACCOUNT_SID = env('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = env('TWILIO_AUTH_TOKEN')
 TWILIO_WHATSAPP_NUMBER = env('TWILIO_WHATSAPP_NUMBER')
 
+
+
 # Database configuration
 DATABASES = {
     'default': env.db(default='sqlite:///db.sqlite3')
@@ -51,7 +53,7 @@ DATABASES = {
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -108,11 +110,6 @@ LOGOUT_REDIRECT_URL = 'login'
 
 # Redirect to home page after logout
 LOGOUT_REDIRECT_URL = 'home'
-
-# Add Twilio credentials (ensure to use environment variables in production)
-TWILIO_ACCOUNT_SID = 'your_account_sid'
-TWILIO_AUTH_TOKEN = 'your_auth_token'
-TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
 
 ROOT_URLCONF = 'whatsapp_project.urls'
 
