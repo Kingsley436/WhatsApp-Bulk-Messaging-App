@@ -1,0 +1,45 @@
+Twilio error for +10987654321: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +11234567890: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +12345678901: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +233557272031: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +2335724756301: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for 0247104161: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Error sending to +233557272031: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233557272031']
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Twilio error for +10987654321: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +11234567890: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +12345678901: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +233557272031: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for +2335724756301: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Twilio error for 0247104161: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233544726002']
+Error sending to +233557272031: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Error sending to +233544726002: HTTP 401 error: Unable to create record: Authentication Error - invalid username
+Failed to send messages to: ['+233557272031', '+233544726002']
+Message sent to +233544726002, SID: SMf17fd7c510848ae257a0885f88df7e77
+Twilio error for +10987654321: HTTP 400 error: Unable to create record: The 'To' number +10987654321 is not a valid phone number.
+Twilio error for +11234567890: HTTP 400 error: Unable to create record: The 'To' number +11234567890 is not a valid phone number.
+Message sent to +12345678901, SID: SM57ad2c7026cac69958314a1817df9b73
+Message sent to +233544726002, SID: SM9f3920248e1a6846434afbeb9dba6557
+Message sent to +233557272031, SID: SM356c2f8f1a37cbe97d7df1ff7b992459
+Message sent to +2335724756301, SID: SMe2939b4c4a584e7fbe4c5edc7b3a675a
+Twilio error for 0247104161: HTTP 400 error: Unable to create record: The 'To' number 0247104161 is not a valid phone number.
+Message sent to +233557272031, SID: SM4894db4817d68ce6b15df804766dd275
+Message sent to +233557272031, SID: SM4c59dfe10f0c57491212bc539bd4ed0d
+Message sent to +233544726002, SID: SMfe19718f2d51582ccbbbca7fdefe1e6b
+Message sent to +233557272031, SID: SM1b4b9aed55d2c779382a8773c06a04bb
+Message sent to +233544726002, SID: SMd4889b6ecb58274ad67ac93e558dec5d
+Message sent to +233557272031, SID: SMd3c73c23d353f5035be81e10b0d37ed8
